@@ -72,7 +72,7 @@ test.all: test
 .PHONY: clean
 clean:
 	$(info Cleaning)
-	@\rm -rf $(BUILD_DIR) compile_commands.json
+	@\rm -rf $(BUILD_DIR)
 
 .PHONY: lsp
 lsp: clean

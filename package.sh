@@ -16,13 +16,13 @@ TESTS="gtest" # only linked to tests
 #     "build/raylib/include")
 
 fmt=("https://github.com/fmtlib/fmt"
-    "f8c9fabd948e4b3caea30d3c281018b0308491bf"
+    "10.1.1"
     "mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=Release ..; make"
     "libfmt.a"
     "include")
 
 gtest=("https://github.com/google/googletest"
-    "v1.13.0"
+    "v1.14.0"
     "mkdir build; cd build; cmake .. -DBUILD_GMOCK=OFF; make"
     "libgtest.a libgtest_main.a"
     "googletest/include")
